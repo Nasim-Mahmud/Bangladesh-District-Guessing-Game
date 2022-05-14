@@ -3,3 +3,6 @@ import pandas as pd
 
 
 screen = Screen()
+screen.title("Bangladesh district game")
+
+
