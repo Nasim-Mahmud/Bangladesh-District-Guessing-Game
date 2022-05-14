@@ -13,7 +13,7 @@ turtle.shape(image)
 
 # Reading the districts from the .csv file
 districts = pd.read_csv("bd_districts.csv")
-
+print(districts)
 # Turning the districts from .csv to list
 all_districts = districts.District.to_list()
 # print(all_districts)
