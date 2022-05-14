@@ -22,6 +22,7 @@ print(districts_to_list)
 guessed_districts = []
 
 while len(guessed_districts) < 50:
-    answer = screen.textinput(title=f"{guessed_districts}/64 district guessed correctly")
+    answer = screen.textinput(title=f"{guessed_districts}/64 district guessed correctly",
+                              prompt="What's the next district?")
 
 screen.exitonclick()
