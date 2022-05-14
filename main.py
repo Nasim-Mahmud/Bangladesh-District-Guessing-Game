@@ -4,7 +4,7 @@ import pandas as pd
 
 
 screen = Screen()
-screen.setup(width=700, height=700)
+screen.setup(width=700, height=600)
 screen.title("Bangladesh district game")
 
 # Lodaing up the image of Bangladesh
