@@ -38,8 +38,16 @@ while len(guessed_districts) < 50:
     if answer == "Exit":
         break
     if answer in all_districts:
+        guessed_districts.append(answer)
+        coordinates = districts[districts.District == answer]
+        x_cor = int(coordinates.x)
+        y_cor = int(coordinates.y)
         timmy = Turtle()
         timmy.ht()
         timmy.penup()
+        timmy.goto(x_cor, y_cor)
+        timmy.write(answer)
+        all_districts.remove(answer)
 
 screen.exitonclick()
+
