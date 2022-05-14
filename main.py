@@ -19,20 +19,14 @@ all_districts = districts.District.to_list()
 print(all_districts)
 
 # Getting axis in Map
-x_cor = []
-y_cor = []
-cor_dict = {}
 
 def get_mouse_click_coor(x, y):
     print(x, y)
-    x_cor.append(x)
-    y_cor.append(y)
-    cor_dict["axis"] =
 
 
 turtle.onscreenclick(get_mouse_click_coor)
 turtle.mainloop()
-print(cor_dict)
+
 # Game mechanics
 # guessed_districts = []
 #
