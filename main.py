@@ -9,7 +9,7 @@ screen.setup(width=600, height=600)
 screen.title("Bangladesh district game")
 
 # Loading up the image of Bangladesh
-image = "Bangladesh_map.gif"
+image = "bd_map.gif"
 screen.addshape(image)
 turtle.shape(image)
 
