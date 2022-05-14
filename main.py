@@ -16,7 +16,7 @@ districts = pd.read_csv("bd_districts.csv")
 
 # Turning the districts from .csv to list
 all_districts = districts.District.to_list()
-print(all_districts)
+# print(all_districts)
 
 
 # Getting axis in Map
