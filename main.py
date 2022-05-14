@@ -20,8 +20,11 @@ print(all_districts)
 
 # Getting axis in Map
 axis = []
+
+
 def get_mouse_click_coor(x, y):
     print(x, y)
+
 
 turtle.onscreenclick(get_mouse_click_coor)
 turtle.mainloop()
@@ -39,7 +42,5 @@ while len(guessed_districts) < 50:
         timmy = Turtle()
         timmy.ht()
         timmy.penup()
-
-
 
 # screen.exitonclick()
