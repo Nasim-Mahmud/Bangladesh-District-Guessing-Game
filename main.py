@@ -51,7 +51,7 @@ while len(guessed_districts) < 50:
         timmy.write(answer)
         all_districts.remove(answer)
 
-screen.exitonclick()
+# screen.exitonclick()
 
 remaining_districts = pandas.DataFrame(all_districts)
 remaining_districts.to_csv("Remaining Districts")
