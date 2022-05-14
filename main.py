@@ -28,7 +28,7 @@ while len(guessed_districts) < 50:
     if answer == "Exit":
         break
     if answer in all_districts:
+        pass
 
 
-
-screen.exitonclick()
+# screen.exitonclick()
