@@ -1,5 +1,5 @@
-from turtle import Turtle
+from turtle import Turtle, Screen
 import pandas as pd
 
 
-
+screen = Screen()
