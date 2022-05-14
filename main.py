@@ -3,7 +3,7 @@ from turtle import Turtle, Screen
 import pandas as pd
 
 screen = Screen()
-screen.setup(width=600, height=600)
+screen.setup(width=600, height=800)
 screen.title("Bangladesh district game")
 
 # Loading up the image of Bangladesh
