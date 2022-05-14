@@ -21,25 +21,25 @@ all_districts = districts.District.to_list()
 
 # Getting axis in Map
 
-def get_mouse_click_coor(x, y):
-    print(x, y)
-
-
-turtle.onscreenclick(get_mouse_click_coor)
-turtle.mainloop()
+# def get_mouse_click_coor(x, y):
+#     print(x, y)
+#
+#
+# turtle.onscreenclick(get_mouse_click_coor)
+# turtle.mainloop()
 
 # Game mechanics
-# guessed_districts = []
-#
-# while len(guessed_districts) < 50:
-#     answer = screen.textinput(title=f"{len(guessed_districts)}/64 district guessed correctly",
-#                               prompt="What's the next district?").title()
-#
-#     if answer == "Exit":
-#         break
-#     if answer in all_districts:
-#         timmy = Turtle()
-#         timmy.ht()
-#         timmy.penup()
+guessed_districts = []
 
-# screen.exitonclick()
+while len(guessed_districts) < 50:
+    answer = screen.textinput(title=f"{len(guessed_districts)}/64 district guessed correctly",
+                              prompt="What's the next district?").title()
+
+    if answer == "Exit":
+        break
+    if answer in all_districts:
+        timmy = Turtle()
+        timmy.ht()
+        timmy.penup()
+
+screen.exitonclick()
