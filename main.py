@@ -1,5 +1,7 @@
 import turtle
 from turtle import Turtle, Screen
+
+import pandas
 import pandas as pd
 
 screen = Screen()
@@ -51,3 +53,5 @@ while len(guessed_districts) < 50:
 
 screen.exitonclick()
 
+remaining_districts = pandas.DataFrame(all_districts)
+remaining_districts.to_csv("Remaining Districts")
