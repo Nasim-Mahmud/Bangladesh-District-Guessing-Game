@@ -12,6 +12,8 @@ screen.addshape(image)
 turtle.shape(image)
 
 # Reading the districts from the .csv file
-districts = pd.read_csv("")
+districts = pd.read_csv("bd_districts.csv")
+districts_to_list = districts.District.to_list()
+print(districts_to_list)
 
 screen.exitonclick()
