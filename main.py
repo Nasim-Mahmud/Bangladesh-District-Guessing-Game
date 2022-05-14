@@ -45,10 +45,12 @@ while len(guessed_districts) < 50:
         x_cor = int(coordinates.x)
         y_cor = int(coordinates.y)
         timmy = Turtle()
+
         timmy.ht()
         timmy.penup()
         timmy.goto(x_cor, y_cor)
         timmy.write(answer)
+        timmy.dot()
         all_districts.remove(answer)
 
 # screen.exitonclick()
