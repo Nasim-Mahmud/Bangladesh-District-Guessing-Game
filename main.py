@@ -18,4 +18,6 @@ districts = pd.read_csv("bd_districts.csv")
 districts_to_list = districts.District.to_list()
 print(districts_to_list)
 
+# Game mechanics
+
 screen.exitonclick()
