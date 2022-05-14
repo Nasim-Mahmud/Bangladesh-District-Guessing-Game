@@ -15,14 +15,20 @@ turtle.shape(image)
 districts = pd.read_csv("bd_districts.csv")
 
 # Turning the districts from .csv to list
-districts_to_list = districts.District.to_list()
-print(districts_to_list)
+all_districts = districts.District.to_list()
+print(all_districts)
 
 # Game mechanics
 guessed_districts = []
 
 while len(guessed_districts) < 50:
     answer = screen.textinput(title=f"{len(guessed_districts)}/64 district guessed correctly",
-                              prompt="What's the next district?")
+                              prompt="What's the next district?").title()
+
+    if answer == "Exit":
+        break
+    if answer in all_districts:
+
+
 
 screen.exitonclick()
