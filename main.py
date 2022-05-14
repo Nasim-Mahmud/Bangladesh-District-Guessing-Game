@@ -19,5 +19,9 @@ districts_to_list = districts.District.to_list()
 print(districts_to_list)
 
 # Game mechanics
+guessed_districts = []
+
+while len(guessed_districts) < 50:
+    answer = screen.textinput(title=f"{guessed_districts}/64 district guessed correctly")
 
 screen.exitonclick()
