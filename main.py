@@ -18,6 +18,7 @@ districts = pd.read_csv("bd_districts.csv")
 all_districts = districts.District.to_list()
 print(all_districts)
 
+
 # Getting axis in Map
 
 def get_mouse_click_coor(x, y):
